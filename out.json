@@ -1,0 +1,679 @@
+{
+  "Order": {
+    "-CustomerContactID": "D1D1084C-DEBA-11e8-BA4E-0050569953B7",
+    "-EntryType": "INTERNET",
+    "-OrderType": "HOME_DELIVERY",
+    "PersonInfoShipTo": {
+      "-City": "Oslo",
+      "-Country": "NO",
+      "-FirstName": "Silje",
+      "-MobilePhone": "+4746541249",
+      "-ZipCode": "0552",
+      "Extn": {
+        "-GlobalCustomerId": "D1D1084C-DEBA-11e8-BA4E-0050569953B7"
+      },
+      "-AddressLine1": "Thorvald Meyers Gate 65",
+      "-EMailID": "siljeanderseen@live.no",
+      "-LastName": "Storesund Andersen",
+      "-AddressLine6": ""
+    },
+    "HeaderCharges": {
+      "HeaderCharge": {
+        "-ChargeAmount": "0",
+        "-ChargeCategory": "Discount"
+      }
+    },
+    "PaymentMethods": {
+      "PaymentMethod": {
+        "-PaymentType": "CASH"
+      }
+    },
+    "-BillToID": "D1D1084C-DEBA-11e8-BA4E-0050569953B7",
+    "-EnterpriseCode": "IKEA_NO",
+    "-OrderNo": "1273829341",
+    "OrderLineRelationships": {
+      "OrderLineRelationship": [
+        {
+          "ChildLine": {
+            "-PrimeLineNo": "2",
+            "-SubLineNo": "1"
+          },
+          "-RelationshipType": "DELIVERY",
+          "ParentLine": {
+            "-PrimeLineNo": "12",
+            "-SubLineNo": "1"
+          }
+        },
+        {
+          "-RelationshipType": "DELIVERY",
+          "ParentLine": {
+            "-PrimeLineNo": "12",
+            "-SubLineNo": "1"
+          },
+          "ChildLine": {
+            "-PrimeLineNo": "9",
+            "-SubLineNo": "1"
+          }
+        },
+        {
+          "ChildLine": {
+            "-PrimeLineNo": "4",
+            "-SubLineNo": "1"
+          },
+          "-RelationshipType": "DELIVERY",
+          "ParentLine": {
+            "-PrimeLineNo": "12",
+            "-SubLineNo": "1"
+          }
+        },
+        {
+          "ParentLine": {
+            "-PrimeLineNo": "12",
+            "-SubLineNo": "1"
+          },
+          "ChildLine": {
+            "-SubLineNo": "1",
+            "-PrimeLineNo": "6"
+          },
+          "-RelationshipType": "DELIVERY"
+        },
+        {
+          "-RelationshipType": "DELIVERY",
+          "ParentLine": {
+            "-PrimeLineNo": "12",
+            "-SubLineNo": "1"
+          },
+          "ChildLine": {
+            "-PrimeLineNo": "1",
+            "-SubLineNo": "1"
+          }
+        },
+        {
+          "ParentLine": {
+            "-PrimeLineNo": "12",
+            "-SubLineNo": "1"
+          },
+          "ChildLine": {
+            "-PrimeLineNo": "3",
+            "-SubLineNo": "1"
+          },
+          "-RelationshipType": "DELIVERY"
+        },
+        {
+          "-RelationshipType": "DELIVERY",
+          "ParentLine": {
+            "-PrimeLineNo": "12",
+            "-SubLineNo": "1"
+          },
+          "ChildLine": {
+            "-PrimeLineNo": "7",
+            "-SubLineNo": "1"
+          }
+        },
+        {
+          "-RelationshipType": "DELIVERY",
+          "ParentLine": {
+            "-PrimeLineNo": "12",
+            "-SubLineNo": "1"
+          },
+          "ChildLine": {
+            "-PrimeLineNo": "5",
+            "-SubLineNo": "1"
+          }
+        },
+        {
+          "-RelationshipType": "DELIVERY",
+          "ParentLine": {
+            "-PrimeLineNo": "13",
+            "-SubLineNo": "1"
+          },
+          "ChildLine": {
+            "-PrimeLineNo": "10",
+            "-SubLineNo": "1"
+          }
+        },
+        {
+          "-RelationshipType": "DELIVERY",
+          "ParentLine": {
+            "-SubLineNo": "1",
+            "-PrimeLineNo": "13"
+          },
+          "ChildLine": {
+            "-SubLineNo": "1",
+            "-PrimeLineNo": "8"
+          }
+        }
+      ]
+    },
+    "-OrderDate": "2022-04-04T12:52:36.714Z",
+    "PriceInfo": {
+      "-Currency": "NOK"
+    },
+    "PersonInfoBillTo": {
+      "-City": "Oslo",
+      "-Country": "NO",
+      "-AddressLine1": "Thorvald Meyers Gate 65",
+      "-AddressLine6": "",
+      "-LastName": "Storesund Andersen",
+      "-MobilePhone": "+4746541249",
+      "-ZipCode": "0552",
+      "Extn": {
+        "-GlobalCustomerId": "D1D1084C-DEBA-11e8-BA4E-0050569953B7"
+      },
+      "-EMailID": "siljeanderseen@live.no",
+      "-FirstName": "Silje"
+    },
+    "HeaderTaxes": {
+      "HeaderTax": {
+        "-Tax": "0",
+        "-TaxName": "VAT"
+      }
+    },
+    "-CustomerEMailID": "siljeanderseen@live.no",
+    "-DocumentType": "0001",
+    "-SellerOrganizationCode": "STO.076",
+    "Extn": {
+      "-DeliveryArrangementsId": "20220404122539408574044",
+      "-IsShowRoomOrder": "N",
+      "-PreferredLanguage": "no",
+      "-PreferredCommunicationMethod": "MOBILE",
+      "-RegionCode": "EU",
+      "-ServiceType": "HOME_DELIVERY",
+      "-TotalAmount": "5240.0",
+      "-IsBusinessCustomer": "N",
+      "-OfficialLanguage": "no",
+      "-OrderNoSrc": "A01"
+    },
+    "OrderLines": {
+      "OrderLine": [
+        {
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T16:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "LineTaxes": {
+            "LineTax": {
+              "-Tax": "3",
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0"
+            }
+          },
+          "-DeliveryMethod": "SHP",
+          "-MergeNode": "STO.091",
+          "-OrderedQty": "1",
+          "LinePriceInfo": {
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "15",
+            "-UnitPrice": "12"
+          },
+          "-ShipNode": "STO.091",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemID": "ART10350998",
+            "-UnitOfMeasure": "Piece",
+            "-ItemDesc": "VÅGSJÖN Wshclth 30x30 White 4-p MPP4"
+          },
+          "-ItemGroupCode": "PROD",
+          "-LevelOfService": "SGR50000899",
+          "-PrimeLineNo": "2",
+          "-ReqDeliveryDate": ""
+        },
+        {
+          "-MergeNode": "STO.091",
+          "-ReqDeliveryDate": "",
+          "-ShipNode": "STO.091",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemDesc": "HJÄLPA Shelf 60x55 White MPP2",
+            "-ItemID": "ART90331166",
+            "-UnitOfMeasure": "Piece"
+          },
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T16:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "LineTaxes": {
+            "LineTax": {
+              "-Tax": "18",
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0"
+            }
+          },
+          "-DeliveryMethod": "SHP",
+          "-ItemGroupCode": "PROD",
+          "-LevelOfService": "SGR50000899",
+          "-OrderedQty": "4",
+          "-PrimeLineNo": "9",
+          "LinePriceInfo": {
+            "-UnitPrice": "72",
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "90"
+          }
+        },
+        {
+          "-ItemGroupCode": "PROD",
+          "-LevelOfService": "SGR50000899",
+          "-OrderedQty": "1",
+          "-ReqDeliveryDate": "",
+          "-ShipNode": "STO.091",
+          "LinePriceInfo": {
+            "-RetailPrice": "200",
+            "-UnitPrice": "160",
+            "-IsPriceLocked": "Y"
+          },
+          "-DeliveryMethod": "SHP",
+          "-MergeNode": "STO.091",
+          "-PrimeLineNo": "4",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemDesc": "FONNES Door 60x180 White MPP",
+            "-ItemID": "ART40331055",
+            "-UnitOfMeasure": "Piece"
+          },
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T16:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "LineTaxes": {
+            "LineTax": {
+              "-Tax": "40",
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0"
+            }
+          }
+        },
+        {
+          "-OrderedQty": "1",
+          "-ReqDeliveryDate": "",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemDesc": "BILLSBRO Handle 120 Mm White 2-p MPP3",
+            "-ItemID": "ART50334303",
+            "-UnitOfMeasure": "Piece"
+          },
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T16:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "LineTaxes": {
+            "LineTax": {
+              "-Tax": "15.8",
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0"
+            }
+          },
+          "LinePriceInfo": {
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "79",
+            "-UnitPrice": "63.2"
+          },
+          "-DeliveryMethod": "SHP",
+          "-ItemGroupCode": "PROD",
+          "-LevelOfService": "SGR50000899",
+          "-MergeNode": "STO.091",
+          "-PrimeLineNo": "6",
+          "-ShipNode": "STO.091"
+        },
+        {
+          "LineTaxes": {
+            "LineTax": {
+              "-Tax": "279",
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0"
+            }
+          },
+          "-SubLineNo": "1",
+          "-ItemGroupCode": "PROD",
+          "-LevelOfService": "SGR50000899",
+          "-MergeNode": "STO.091",
+          "-OrderedQty": "1",
+          "-PrimeLineNo": "1",
+          "-ReqDeliveryDate": "",
+          "-ShipNode": "STO.091",
+          "-DeliveryMethod": "SHP",
+          "LinePriceInfo": {
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "1395",
+            "-UnitPrice": "1116"
+          },
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T16:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "Item": {
+            "-ItemDesc": "KLEPPSTAD Wrd 3d 117x176 White MPP",
+            "-ItemID": "ART00441758",
+            "-UnitOfMeasure": "Piece"
+          }
+        },
+        {
+          "-ReqDeliveryDate": "",
+          "-ShipNode": "STO.091",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemID": "ART20331198",
+            "-UnitOfMeasure": "Piece",
+            "-ItemDesc": "LÄTTHET Leg Adjustable White 4-p MPP2"
+          },
+          "LinePriceInfo": {
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "40",
+            "-UnitPrice": "32"
+          },
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T16:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "-OrderedQty": "1",
+          "-PrimeLineNo": "3",
+          "-LevelOfService": "SGR50000899",
+          "-MergeNode": "STO.091",
+          "LineTaxes": {
+            "LineTax": {
+              "-TaxPercentage": "25.0",
+              "-Tax": "8",
+              "-TaxName": "VAT"
+            }
+          },
+          "-DeliveryMethod": "SHP",
+          "-ItemGroupCode": "PROD"
+        },
+        {
+          "-ReqDeliveryDate": "",
+          "-ShipNode": "STO.091",
+          "-DeliveryMethod": "SHP",
+          "-LevelOfService": "SGR50000899",
+          "-OrderedQty": "4",
+          "-PrimeLineNo": "7",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemDesc": "HJÄLPA Standard Hinges 1-p MPP3",
+            "-ItemID": "ART60331200",
+            "-UnitOfMeasure": "Piece"
+          },
+          "LinePriceInfo": {
+            "-RetailPrice": "25",
+            "-UnitPrice": "20",
+            "-IsPriceLocked": "Y"
+          },
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T16:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "-ItemGroupCode": "PROD",
+          "-MergeNode": "STO.091",
+          "LineTaxes": {
+            "LineTax": {
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0",
+              "-Tax": "5"
+            }
+          }
+        },
+        {
+          "-DeliveryMethod": "SHP",
+          "-ItemGroupCode": "PROD",
+          "-LevelOfService": "SGR50000899",
+          "-OrderedQty": "1",
+          "-MergeNode": "STO.091",
+          "-PrimeLineNo": "5",
+          "-ReqDeliveryDate": "",
+          "-ShipNode": "STO.091",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemDesc": "PLATSA Frame 60x55x180 White MPP3",
+            "-ItemID": "ART50330951",
+            "-UnitOfMeasure": "Piece"
+          },
+          "LinePriceInfo": {
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "575",
+            "-UnitPrice": "460"
+          },
+          "Extn": {
+            "-HasExceptionQty": "N",
+            "-DeliveryDate": "2022-04-05T16:00:00Z"
+          },
+          "LineTaxes": {
+            "LineTax": {
+              "-Tax": "115",
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0"
+            }
+          }
+        },
+        {
+          "-OrderedQty": "1",
+          "-PrimeLineNo": "12",
+          "-ShipNode": "STO.091",
+          "References": {
+            "Reference": [
+              {
+                "-Name": "MergeOrderNo"
+              },
+              {
+                "-Name": "MergeDeliveryNo"
+              }
+            ]
+          },
+          "OrderHoldTypes": "",
+          "-ItemGroupCode": "DS",
+          "-PromisedApptEndDate": "2022-04-05T18:00:00Z",
+          "-PromisedApptStartDate": "2022-04-05T14:00:00Z",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemID": "SGR50000899",
+            "-UnitOfMeasure": "ORDERS"
+          },
+          "LinePriceInfo": {
+            "-UnitPrice": "799.2",
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "999.0"
+          },
+          "Extn": {
+            "-HandInUser": "ingka-sp-ordercapture",
+            "-HasExceptionQty": "N",
+            "-ResourcePoolId": "oso52iXixUuyqRFqALSQLA==",
+            "-TimeWindowID": "85a132e6-af7e-450f-926e-116a014d0422",
+            "-TotalDeliveryPrice": "999.0"
+          },
+          "LineTaxes": {
+            "LineTax": {
+              "-Tax": "199.8",
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0"
+            }
+          }
+        },
+        {
+          "-PrimeLineNo": "10",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemDesc": "MALM N Chest/6 Drw 160x78 Wh St Oak Ven NA MPP",
+            "-ItemID": "ART90403587",
+            "-UnitOfMeasure": "Piece"
+          },
+          "-ShipNode": "STO.095",
+          "LinePriceInfo": {
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "1399",
+            "-UnitPrice": "1119.2"
+          },
+          "-DeliveryMethod": "SHP",
+          "-ItemGroupCode": "PROD",
+          "-LevelOfService": "SGR50000899",
+          "-MergeNode": "STO.095",
+          "-OrderedQty": "1",
+          "-ReqDeliveryDate": "",
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T18:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "LineTaxes": {
+            "LineTax": {
+              "-Tax": "279.8",
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0"
+            }
+          }
+        },
+        {
+          "Extn": {
+            "-DeliveryDate": "2022-04-05T18:00:00Z",
+            "-HasExceptionQty": "N"
+          },
+          "-DeliveryMethod": "SHP",
+          "-PrimeLineNo": "8",
+          "-SubLineNo": "1",
+          "-OrderedQty": "2",
+          "-ReqDeliveryDate": "",
+          "-ShipNode": "STO.095",
+          "Item": {
+            "-ItemDesc": "STUK Box W Comp 20x34x10 White MPP",
+            "-ItemID": "ART60474425",
+            "-UnitOfMeasure": "Piece"
+          },
+          "LinePriceInfo": {
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "39",
+            "-UnitPrice": "31.2"
+          },
+          "-ItemGroupCode": "PROD",
+          "-LevelOfService": "SGR50000899",
+          "-MergeNode": "STO.095",
+          "LineTaxes": {
+            "LineTax": {
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0",
+              "-Tax": "7.8"
+            }
+          }
+        },
+        {
+          "LineTaxes": {
+            "LineTax": {
+              "-TaxName": "VAT",
+              "-TaxPercentage": "25.0",
+              "-Tax": "0.0"
+            }
+          },
+          "-ItemGroupCode": "DS",
+          "-PrimeLineNo": "13",
+          "-ShipNode": "STO.095",
+          "-SubLineNo": "1",
+          "Item": {
+            "-ItemID": "SGR50000899",
+            "-UnitOfMeasure": "ORDERS"
+          },
+          "Extn": {
+            "-TotalDeliveryPrice": "0",
+            "-HandInUser": "ingka-sp-ordercapture",
+            "-HasExceptionQty": "N",
+            "-ResourcePoolId": "LJEVBzYea0eU2hFvAMYwgg==",
+            "-TimeWindowID": "9c7489e2-6010-423c-8716-116f014a11bf"
+          },
+          "-OrderedQty": "1",
+          "-PromisedApptEndDate": "2022-04-05T20:00:00Z",
+          "-PromisedApptStartDate": "2022-04-05T16:00:00Z",
+          "LinePriceInfo": {
+            "-IsPriceLocked": "Y",
+            "-RetailPrice": "0",
+            "-UnitPrice": "0.0"
+          },
+          "References": {
+            "Reference": [
+              {
+                "-Name": "MergeOrderNo"
+              },
+              {
+                "-Name": "MergeDeliveryNo"
+              }
+            ]
+          },
+          "OrderHoldTypes": ""
+        }
+      ]
+    },
+    "AnswerSets": {
+      "AnswerSet": {
+        "Answers": {
+          "Answer": [
+            {
+              "-AnswerValue": "Inngangen Ligger I Thorvald Meyers Gate, Gatenummer 65",
+              "-QuestionID": "ADDITIONAL_INFO_TSP",
+              "Extn": {
+                "-QuestionRef": "ADDITIONAL_INFO_TSP",
+                "-ServicePrimeLineNo": "12",
+                "-Option": ""
+              }
+            },
+            {
+              "Extn": {
+                "-Option": "",
+                "-QuestionRef": "ADDITIONAL_INFO_TSP",
+                "-ServicePrimeLineNo": "13"
+              },
+              "-AnswerValue": "Inngangen Ligger I Thorvald Meyers Gate, Gatenummer 65",
+              "-QuestionID": "ADDITIONAL_INFO_TSP"
+            },
+            {
+              "Extn": {
+                "-Option": "YES",
+                "-QuestionRef": "DEL_ADDRESS_IN_RESTRICTED_TRAFFIC_ZONE",
+                "-ServicePrimeLineNo": "12"
+              },
+              "-AnswerValue": "Der Er Ikke Mulig Å Parkere Utenfor Inngangen. Du Kan Parkere I Gaten Nedenfor, Nordre Gate, Langs 7-eleven. Vi Har Også Tilgang Til Bakgård Med Inngang I Thorvald Meyers Gate, Men Det Er Ikke Garantert At Lastebilen Får Plass Inn I Bakgården.",
+              "-QuestionID": "DEL_ADDRESS_IN_RESTRICTED_TRAFFIC_ZONE"
+            },
+            {
+              "Extn": {
+                "-Option": "YES",
+                "-QuestionRef": "DEL_ADDRESS_IN_RESTRICTED_TRAFFIC_ZONE",
+                "-ServicePrimeLineNo": "13"
+              },
+              "-AnswerValue": "Der Er Ikke Mulig Å Parkere Utenfor Inngangen. Du Kan Parkere I Gaten Nedenfor, Nordre Gate, Langs 7-eleven. Vi Har Også Tilgang Til Bakgård Med Inngang I Thorvald Meyers Gate, Men Det Er Ikke Garantert At Lastebilen Får Plass Inn I Bakgården.",
+              "-QuestionID": "DEL_ADDRESS_IN_RESTRICTED_TRAFFIC_ZONE"
+            },
+            {
+              "-QuestionID": "ELEVATOR_EXISTS",
+              "Extn": {
+                "-Option": "YES",
+                "-QuestionRef": "ELEVATOR_EXISTS",
+                "-ServicePrimeLineNo": "12"
+              }
+            },
+            {
+              "-QuestionID": "ELEVATOR_EXISTS",
+              "Extn": {
+                "-QuestionRef": "ELEVATOR_EXISTS",
+                "-ServicePrimeLineNo": "13",
+                "-Option": "YES"
+              }
+            },
+            {
+              "Extn": {
+                "-Option": "",
+                "-QuestionRef": "FLOOR_NO",
+                "-ServicePrimeLineNo": "12"
+              },
+              "-AnswerValue": "2",
+              "-QuestionID": "FLOOR_NO"
+            },
+            {
+              "-AnswerValue": "2",
+              "-QuestionID": "FLOOR_NO",
+              "Extn": {
+                "-Option": "",
+                "-QuestionRef": "FLOOR_NO",
+                "-ServicePrimeLineNo": "13"
+              }
+            }
+          ]
+        },
+        "-AnswerSetTranKey": "NO127382934112",
+        "-PersonInfoKey": "NO127382934112",
+        "-QuestionType": "ADDRESS"
+      }
+    }
+  }
+}

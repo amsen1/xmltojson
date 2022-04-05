@@ -1,0 +1,13 @@
+[
+    {
+        "operation": "shift", 
+        "spec": 
+            {
+                "body.fulfillmentOrder.orderNo": "Order.-OrderNo",
+                "body.fulfillmentOrder.country": "Order.PriceInfo.-Currency",
+                "body.fulfillmentOrder.orderType":"Order.-OrderType",
+                "body.fulfillmentOrder.orderDate":"Order.-OrderDate",
+                
+            }
+    }
+]
